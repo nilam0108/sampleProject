@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[testCase3 called]]>
+    </line>
+    <line>
+      <![CDATA[Test Case 2 called]]>
+    </line>
+    <line>
+      <![CDATA[TestCaseOne 1 called]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-01-22T11:47:40 IST" name="Suite" finished-at="2023-01-22T11:47:41 IST" duration-ms="73">
+    <groups>
+    </groups>
+    <test started-at="2023-01-22T11:47:40 IST" name="Test" finished-at="2023-01-22T11:47:41 IST" duration-ms="73">
+      <class name="Practice.TestCase2">
+        <test-method signature="TestCaseTwo()[pri:2, instance:Practice.TestCase2@6d3a388c]" started-at="2023-01-22T11:47:40 IST" name="TestCaseTwo" finished-at="2023-01-22T11:47:40 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case 2 called]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TestCaseTwo -->
+      </class> <!-- Practice.TestCase2 -->
+      <class name="Practice.TestCase1">
+        <test-method signature="TestCaseOne()[pri:1, instance:Practice.TestCase1@193f604a]" started-at="2023-01-22T11:47:41 IST" name="TestCaseOne" finished-at="2023-01-22T11:47:41 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[TestCaseOne 1 called]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TestCaseOne -->
+      </class> <!-- Practice.TestCase1 -->
+      <class name="Practice.Testcase3">
+        <test-method signature="testCase3()[pri:3, instance:Practice.Testcase3@120f102b]" started-at="2023-01-22T11:47:40 IST" name="testCase3" finished-at="2023-01-22T11:47:40 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[testCase3 called]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testCase3 -->
+      </class> <!-- Practice.Testcase3 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
